@@ -1,0 +1,21 @@
+.details-container {
+    padding: 20px;
+  }
+  
+  .character-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .movies-container {
+    margin-top: 20px;
+  }
+  
+  .movie-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Add more styling as needed */
+  

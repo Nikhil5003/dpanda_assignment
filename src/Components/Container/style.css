@@ -1,0 +1,41 @@
+.card {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    animation: shimmer 1s infinite linear;
+  }
+
+  .card-header,
+  .card-body {
+    background: linear-gradient(90deg, transparent, #f0f0f0, transparent);
+    background-size: 200% 100%;
+    animation: shimmer 1s infinite linear;
+  }
+
+  .card-header {
+    height: 40px;
+  }
+
+  .card-body {
+    padding: 20px;
+    height: 100px;
+  }
+
+  p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
